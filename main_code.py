@@ -7,7 +7,7 @@ api=Api(app)
 
 # data={1:{'first name':'Aditya','second name':'Gaurav','college':"VIT Vellore",'gf':False},
 # 2:{'first name':'shradha','second name':'suman','college':"BIT Mesra",'bf':False}}
-path=r'C:\Users\a.a.gaurav\Desktop\DAM\ADM-templatization\testing 2\Output_Files\Detailed_report\AP322_Executive Sales and Operations  Planning_1909__DetailedReport.xlsx'
+path=r'AP322_Executive Sales and Operations  Planning_1909__DetailedReport.xlsx'
 df=pd.read_excel(path,sheet_name='Doc Summary')
 x=df.to_dict('index')
 
